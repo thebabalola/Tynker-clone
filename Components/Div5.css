@@ -1,0 +1,44 @@
+.mainContainer{
+    width:100%;
+    background-color: #ecfcff;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textTdiv{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h1{
+    font-size: 35px;
+}
+p{
+    font-size: 20px;
+}
+.tImg{
+    width:200px;
+    height:150px;
+    
+}
+.tImg2{ 
+    width:150px;
+    height:150px;   
+}
+
+.tdivImg{
+    width:80%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px;
+}
+.tdivImg2{
+    display: flex;
+    justify-content: space-around;
+    width:70%;
+    margin: 0px 50px 0px 50px;
+}

@@ -1,0 +1,210 @@
+
+.Body{
+    width: 100%;
+    background-image: url(../Images/background@2x.png);
+    height: 98vh;
+}
+
+.HeroCon{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.Logo{
+    width: 200px;
+    height: 30px;
+    margin-left: 100px;
+    margin: 12px;
+}
+
+.Navs{
+    display: flex;
+    justify-content: space-around;
+    width: 550px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 19px;
+    margin-top: 7px; 
+}
+
+.Navs>a{
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+}
+
+.navPad:hover{
+    background-color: lightsteelblue;
+    border: 2px solid white;
+    border-radius: 3px;
+    width: 80px;
+}
+
+.Pad{
+    width: 30px;  
+}
+
+.navPad{
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+ .navPa{
+    width: 60px;
+     height: 28px;
+     padding-top: 9px;
+     font-size: 19px;
+     font-weight: bold;   
+} 
+
+.navPa:hover{
+    background-color: lightsteelblue;
+    border: 2px solid white;
+    border-radius: 3px;
+    width: 85px;  
+}
+
+
+.navEdu{
+    width: 90px;
+    height: 26px;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.navEdu:hover{
+    background-color: lightsteelblue;
+    border: 2px solid white;
+    border-radius: 3px;
+    width: 110px;
+}
+
+ .navCode{
+   height: 26px;
+   font-size: 19px;
+   font-weight: bold;
+   padding-top: 5px;
+ }  
+
+ .navCode:hover{
+    background-color: lightsteelblue;
+    border: 2px solid white;
+    border-radius: 3px;  
+}
+
+
+.Btn{
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+
+}
+
+.Btn1{
+    height: 40px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 19px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.Btn1:hover{
+     background-color: limegreen;
+}
+
+.Btn2{
+    height: 40px;
+    background-color: transparent;
+    border: transparent;
+    color: white; 
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+
+.Btn2:hover{
+    background-color: limegreen;
+}
+
+.SubBody{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:400px ;
+    color: white;
+    margin-left: 30px;
+}
+
+.SubHero{
+    margin-left: 50px;
+}
+.Snow{
+    width: 800px;
+    height: 600px;
+    margin-top: 400px;
+    margin-right: -80px;
+    margin-bottom: 10px;
+    
+}
+
+.par{
+    font-weight: bolder;
+    font-size: 55px;
+    margin-top: 100px;
+}
+
+.par1{
+    margin-top:  -30px;
+    font-size: 20px;
+}
+
+.par2{
+    width: 225px;
+    height: 40px;
+    border: 1px solid #FF8D1A;
+    background-color: #FF8D1A;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    font-size: 19px;
+    margin-top: 40px;
+}
+
+.par3{
+    font-size: 20px;
+}
+
+.par3> a{
+    color: white;
+}
+
+.Waver{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;  
+}
+
+.wave{
+    width: 100%;
+}
+
+.Help{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 0%;
+    bottom: 20%;
+}
